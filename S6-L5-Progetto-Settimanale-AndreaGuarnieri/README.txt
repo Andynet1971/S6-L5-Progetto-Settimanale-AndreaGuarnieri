@@ -94,3 +94,98 @@ L'ultima voce sulla navbar consente, sempre per mezzo di chiamata asincrona, di 
 In fine a destra della navbar c'è il bottone che consente il logout.
 
 L'applicazione è perfettamente funzionante in tutte le sue parti e testabile.
+
+Sotto riporto la struttura della mia applicazione
+
+
+Soluzione 'S6-L5-Progetto-Settimanale-AndreaGuarnieri'
+|
+|-- S6-L5-Progetto-Settimanale-AndreaGuarnieri
+    |
+    |-- Connected Services
+    |
+    |-- Dipendenze
+    |
+    |-- Properties
+    |
+    |-- wwwroot
+    |
+    |-- Controllers
+    |   |-- AccountController.cs
+    |   |-- HomeController.cs
+    |   |-- PrenotazioneController.cs
+    |   |-- UtenteController.cs
+    |
+    |-- DataAccess
+    |   |-- CameraDataAccess.cs
+    |   |-- ClienteDataAccess.cs
+    |   |-- PrenotazioneDataAccess.cs
+    |   |-- ServizioAggiuntivoDataAccess.cs
+    |   |-- ServizioDataAccess.cs
+    |   |-- UtenteDataAccess.cs
+    |
+    |-- Interfaces
+    |   |-- ICamera.cs
+    |   |-- ICliente.cs
+    |   |-- IPrenotazione.cs
+    |   |-- IServizio.cs
+    |   |-- IServizioAggiuntivo.cs
+    |   |-- IUtente.cs
+    |
+    |-- Models
+    |   |-- ViewModels
+    |       |-- CheckoutViewModel.cs
+    |       |-- ClientePrenotazioneViewModel.cs
+    |       |-- LoginViewModel.cs
+    |       |-- PrenotazioneViewModel.cs
+    |       |-- SearchResultViewModel.cs
+    |       |-- SearchViewModel.cs
+    |       |-- ServizioAggiuntivoViewModel.cs
+    |       |-- UtenteViewModel.cs
+    |   |-- Camera.cs
+    |   |-- Cliente.cs
+    |   |-- ErrorViewModel.cs
+    |   |-- Prenotazione.cs
+    |   |-- Servizio.cs
+    |   |-- ServizioAggiuntivo.cs
+    |   |-- Utente.cs
+    |
+    |-- Services
+    |   |-- CameraService.cs
+    |   |-- ClienteService.cs
+    |   |-- PrenotazioneService.cs
+    |   |-- ServizioAggiuntivoService.cs
+    |   |-- ServizioService.cs
+    |   |-- UtenteService.cs
+    |
+    |-- Views
+        |-- Account
+        |   |-- Login.cshtml
+        |   |-- LoginFailed.cshtml
+        |
+        |-- Home
+        |   |-- Index.cshtml
+        |   |-- Privacy.cshtml
+        |
+        |-- Prenotazione
+        |   |-- AddClientePrenotazione.cshtml
+        |   |-- AddServizioAggiuntivo.cshtml
+        |   |-- Checkout.cshtml
+        |   |-- Index.cshtml
+        |   |-- Search.cshtml
+        |   |-- SearchResult.cshtml
+        |   |-- TipologiaSoggiorno.cshtml
+        |
+        |-- Shared
+            |-- _Layout.cshtml
+            |-- _ValidationScriptsPartial.cshtml
+            |-- Error.cshtml
+            |-- _ViewImports.cshtml
+            |-- _ViewStart.cshtml
+    |
+    |-- appsettings.json
+    |
+    |-- Program.cs
+    |
+    |-- README.txt
+
